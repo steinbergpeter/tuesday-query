@@ -1,4 +1,4 @@
-import { createHandler, readManyHandler } from '@/lib/handlers';
+import { createHandler, readManyHandler } from '@/server/handlers';
 import { prisma } from '@/lib/prisma';
 import {
   postIncludeSchema,

@@ -1,4 +1,8 @@
-import { readOneHandler, updateHandler, deleteHandler } from '@/lib/handlers';
+import {
+  readOneHandler,
+  updateHandler,
+  deleteHandler,
+} from '@/server/handlers';
 import { prisma } from '@/lib/prisma';
 import {
   postInputSchema,
